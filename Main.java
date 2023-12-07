@@ -2,7 +2,7 @@ public class Main{
 	public interface Inter {
 	    public int adding(int start, int end);
 	}
-
+//creates lmabda
     public static void main(String[] args){
 		Inter interfaceAdding = (start, end) ->{
 			int r = 0;
