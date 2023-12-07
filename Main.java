@@ -11,7 +11,8 @@ public class Main{
         	return r;
 		};
 		try {
-			System.out.println(Inter.adding(args[0], args[1]));
+			System.out.println(Inter.adding(Integer.parseInt(args[0]), Integer.parseInt(args[1])));
+
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
